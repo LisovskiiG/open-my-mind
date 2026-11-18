@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openmymind",
+  "version": "2.0.0",
+  "description": "Practice independent thinking with guiding questions, quizzes, and your own hypotheses.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "OpenMyMind",
+        "shortDescription": "Think before the AI answers",
+        "defaultPrompt": [
+          "Help me work out why Git uses branches.",
+          "Give me a short reasoning quiz.",
+          "Let me propose a hypothesis first."
+        ],
+        "longDescription": "Explore questions with guiding prompts, a three-option quiz, or your own hypothesis. Connect an account to track practice over time and opt in to email reminders.",
+        "category": "Education & Research"
+      }
+    }
+  }
+}
